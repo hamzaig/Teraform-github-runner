@@ -1,0 +1,25 @@
+# Terraform configuration files
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+
+# Local .terraform directories
+.terraform/
+
+# Crash log files
+crash.log
+
+# Exclude override files, which are meant to override default configurations
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+*.pem
+
+# Include terraform workspace and environment files
+terraform.tfstate.d/
+
+# Ignore any files or directories with sensitive credentials or secrets
+secret.tf
